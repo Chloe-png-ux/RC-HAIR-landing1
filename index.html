@@ -41,7 +41,7 @@
     
     /* Hero */
     .hero { position: relative; height: 100vh; min-height: 700px; display: flex; align-items: center; justify-content: center; overflow: hidden; }
-    .hero-bg { position: absolute; inset: 0; background-image: url('public/hero-bg.png'); background-size: cover; background-position: center; filter: brightness(0.85); transform: scale(1.05); animation: heroZoom 20s ease-in-out infinite alternate; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('public/hero-bg.webp'); background-size: cover; background-position: center; filter: brightness(0.85); transform: scale(1.05); animation: heroZoom 20s ease-in-out infinite alternate; }
     .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(45,45,45,0.3) 0%, rgba(45,45,45,0.5) 50%, rgba(45,45,45,0.7) 100%); }
     .hero-content { position: relative; z-index: 10; text-align: center; color: #fff; max-width: 800px; padding: 0 32px; }
     .hero-content p.tagline { font-size: 0.875rem; letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 24px; opacity: 0; transform: translateY(20px); animation: fadeUp 1s ease 0.3s forwards; }
@@ -300,10 +300,10 @@
   <script>
     // Product Data
     const products = [
-      { id: 'w1', name: 'Seamless Invisible Weft', category: 'wefts', type: 'Hair Weft', price: 289, image: 'public/hair-1.png' },
-      { id: 'w2', name: 'Hand-Tied Weft', category: 'wefts', type: 'Hair Weft', price: 389, image: 'public/hair-2.png' },
-      { id: 't1', name: 'Silk Base Topper', category: 'toppers', type: 'Hair Topper', price: 449, image: 'public/hair-3.png' },
-      { id: 't2', name: 'Lace Front Wig', category: 'toppers', type: 'Hair Topper', price: 599, image: 'public/hair-4.jpg' }
+      { id: 'w1', name: 'Seamless Invisible Weft', category: 'wefts', type: 'Hair Weft', price: 289, image: 'public/hair-1.webp' },
+      { id: 'w2', name: 'Hand-Tied Weft', category: 'wefts', type: 'Hair Weft', price: 389, image: 'public/hair-2.webp' },
+      { id: 't1', name: 'Silk Base Topper', category: 'toppers', type: 'Hair Topper', price: 449, image: 'public/hair-3.webp' },
+      { id: 't2', name: 'Lace Front Wig', category: 'toppers', type: 'Hair Topper', price: 599, image: 'public/hair-4.webp' }
     ];
 
     let activeCategory = 'all';
