@@ -1,3 +1,5 @@
 User-agent: *
 Allow: /
+Disallow: /.coze/
+Disallow: /admin/
 Sitemap: https://rchair.cn/sitemap.xml
